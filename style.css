@@ -1,0 +1,775 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+
+    background-image: url('bg7.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-width: 1300px;
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    html,
+    body {
+        background-image: url('bg7.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+
+        position: relative;
+
+
+    }
+}
+
+.container {
+    
+    width: 100%;
+}
+
+#head {
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+a {
+    color: black;
+    font-size: 25px;
+    font-family: cursive;
+    text-decoration-line: none;
+    margin-right: 40px;
+    align-items: center;
+
+}
+
+
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+nav ul {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+#logo {
+    font-size: 40px;
+    margin-top: 4px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:767px) {
+    ul {
+
+        flex-wrap: wrap;
+        margin-left: 5pc;
+
+
+    }
+
+    #head {
+        width: 100%;
+       
+
+    }
+
+    .container {
+        width: 100%;
+        
+        margin-left: 4pc;
+    }
+
+    a {
+        color: black;
+        font-size: 60px;
+        margin-left: 5pc;
+
+
+    }
+
+    #logo {
+        font-size: 9rem;
+        margin-left: 0%;
+        margin-top: 3pc;
+    }
+}
+
+
+
+#home {
+    text-align: center;
+    padding: 100px 140px 100px 80px;
+    flex-direction: column;
+    height: 600px;
+
+    margin-top: 200px;
+}
+
+
+h1 {
+    font-size: 100px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+    font-size: 40px;
+    padding: 40px;
+    font-family: cursive;
+
+
+}
+
+
+
+#btn {
+    font-size: 40px;
+    background-color: blue;
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-color: lightblue;
+
+}
+
+
+
+#btn:hover {
+    box-shadow: 0 5px;
+    background-color: black;
+
+}
+@media screen and (max-width:767px){
+    #home{
+        width: 100%;
+        height: 100pc;
+    }
+    h1 {
+        font-size: 10pc;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    h2 {
+        font-size: 8pc;
+        margin-top: 5pc;
+        padding: 40px;
+        font-family: cursive;
+    
+    
+    }
+    #btn {
+        font-size: 6pc;
+        background-color: blue;
+        border-radius: 100px;
+        text-align: center;
+        color: white;
+        margin-top: 10pc;
+        padding: 40px 60px;
+        cursor: pointer;
+        border-color: lightblue;
+    
+    }
+}
+
+#page1 {
+
+    height: 750px;
+
+}
+
+#about {
+    display: grid;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 10px;
+    height: 100%;
+
+}
+
+
+
+.flex_container {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+img {
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 0px 0px;
+    border-radius: 120px;
+
+
+
+}
+
+@media screen and (max-width:767px){
+    #page1{
+        height: 200pc;
+        width: 100%;
+    }
+    #about {
+        display: grid;
+        color: aliceblue;
+        font-size: 7pc;
+        text-align: center;
+        padding: 20px 10px 0pc 10pc;
+        height: 100%;
+    
+        
+    }
+    img {
+        
+        width: 50pc;
+        height: 80pc;
+        margin: 0pc 0pc 0pc 7pc;
+        border-radius: 120px;
+}
+}
+
+
+#para2 {
+    font-size: 30px;
+    width: 800px;
+
+    text-align: justify;
+    padding-left: 350px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@media screen and (max-width:767px) {
+    #para2 {
+        font-size: 4pc;
+        padding: 30px 40px;
+        margin-left: 7pc;
+
+    }
+
+    .phot {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.grid-item1 {
+    padding: 10px;
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 567px) {
+    .grid-item1 {
+        margin-left: 20px;
+    }
+}
+
+#vbtn {
+    display: block;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#download {
+    height: 50px;
+    width: 220px;
+    border-radius: 100px;
+    border-color: lightblue;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+#download:hover {
+    box-shadow: 0 5px;
+    background-color: tomato;
+}
+
+#hire {
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    border-color: lightblue;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: blue;
+    cursor: pointer;
+
+}
+
+#hire:hover {
+    box-shadow: 0 5px;
+    background-color: tomato;
+}
+
+@media screen and (max-width:767px) {
+    #vbtn {
+        width: 100pc;
+
+    }
+
+    #download {
+        height: 9pc;
+        width: 30pc;
+        font-size: 3.5pc;
+    }
+
+    #hire {
+        height: 9pc;
+        width: 30pc;
+        font-size: 3.5pc;
+    }
+}
+
+#skill {
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#page2 {
+
+    height: 800px;
+
+}
+
+@media screen and (max-width:767px){
+    #page2 {
+        height: 150pc;
+        width: 100%;
+    }
+
+    #skill {
+        height: 100pc;
+        width: 100%;
+        font-size: 7pc;
+        padding-left: 8pc;
+    }
+
+}
+
+.c-img {
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.db {
+    margin-top: 60px;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 567px) {
+    .flex_container1 {
+        margin-top: 6pc;
+        margin-right: 17pc;
+
+        display: grid;
+        height: 100pc;
+    }
+
+
+
+
+}
+
+
+#c {
+    height: 15pc;
+    width: 15pc;
+    flex: 100%;
+
+}
+
+#py {
+    height: 15pc;
+    width: 15pc;
+    flex: 100%;
+
+}
+
+#jv {
+    height: 15pc;
+    width: 15pc;
+    flex: 100%;
+}
+
+#dbm {
+    height: 15pc;
+    width: 15pc;
+    flex: 100%;
+
+
+
+}
+
+#ph {
+    height: 15pc;
+    width: 15pc;
+    flex: 100%;
+
+}
+
+#js {
+    height: 15pc;
+    width: 15pc;
+    flex: 100%;
+}
+
+#dj {
+    height: 15pc;
+    width: 15pc;
+    flex: 100%;
+}
+
+#dsa {
+    height: 15pc;
+    width: 15pc;
+    flex: 100%;
+}
+
+
+#page3 {
+
+    height: 750px;
+
+}
+
+.ser {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.serv {
+    margin-top: 60px;
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width:767px) {
+    #page3 {
+        height: 150pc;
+        width: 100%;
+    }
+
+    #services {
+        height: 150pc;
+        width: 100%;
+        padding-left: 9pc;
+    }
+
+    .ser {
+        font-size: 7pc;
+        text-align: center;
+    }
+
+    .flex_container2 {
+        height: 100%;
+    }
+
+    .serv {
+        width: 80%;
+        margin: 6%;
+        gap: 4pc;
+    }
+}
+
+#webser {
+    height: 35pc;
+    width: 25pc;
+    flex: 100%;
+}
+
+#webdeg {
+    height: 35pc;
+    width: 25pc;
+    flex: 100%;
+
+}
+
+#ds {
+    height: 35pc;
+    width: 25pc;
+    flex: 100%;
+}
+
+@media screen and (max-width:767px) {
+    #webser {
+        width: 40pc;
+        height: 40pc;
+    }
+
+    #webdeg {
+        width: 40pc;
+        height: 40pc;
+
+    }
+
+    #ds {
+        width: 40pc;
+        height: 40pc;
+    }
+
+}
+
+#page4 {
+
+    height: 800px;
+
+}
+
+.pro {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+#pypro {
+    font-size: 20px;
+    color: white;
+
+
+}
+
+@media screen and (max-width:767px){
+    #page4 {
+        height: 150pc;
+        width: 100%;
+    }
+
+    #project {
+        height: 100pc;
+        width: 100%;
+    }
+
+    .pro {
+        font-size: 7pc;
+    }
+
+    .flex_container3 {
+        margin-left: 10px;
+
+    }
+}
+
+.pp {
+    font-size: 40px;
+    color: rgb(14, 13, 13);
+
+}
+
+.proj {
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.con {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(15, 14, 14);
+
+}
+
+.ast {
+    text-align: center;
+    color: rgb(20, 16, 16);
+    font-size: 40px;
+}
+
+#contact {
+    
+    height: 500px;
+}
+
+@media screen and (max-width:767px) {
+    #contact {
+        height: 80pc;
+        width: 100%;
+        padding-left: 8pc;
+        
+    }
+
+    .con {
+        font-size: 7pc;
+    }
+
+    .ast {
+        font-size: 7pc;
+    }
+}
+
+.grid-container1 {
+    display: grid;
+
+    justify-content: center;
+    margin-top: 5%;
+
+    padding: 20px;
+
+}
+
+#social {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .grid-container1 {
+        width: 100%;
+    }
+
+    #social {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 2pc;
+    }
+
+    .img-container {
+        margin-right: 9pc;
+    }
+}
+
+.fol {
+    text-align: center;
+    color: rgb(11, 10, 10);
+    font-size: 40px;
+
+}
+
+.folo {
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+
+.pj {
+    text-align: center;
+    color: rgb(4, 4, 4);
+    font-size: 40px;
+
+}
+
+#linkdn {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+#face {
+    width: 70px;
+    height: 70px;
+
+}
+
+#insta {
+    width: 70px;
+    height: 70px;
+
+}
+
+#twit {
+    width: 70px;
+    height: 70px;
+}
+
+#wat {
+    width: 70px;
+    height: 70px;
+}
+
+@media screen and (max-width:767px) {
+    #wat {
+        width: 10pc;
+        height: 10pc;
+    }
+
+    #linkdn {
+        width: 10pc;
+        height: 10pc;
+
+    }
+
+    #insta {
+        width: 10pc;
+        height: 10pc;
+    }
+
+    #face {
+        width: 10pc;
+        height: 10pc;
+
+    }
+
+    #twit {
+        width: 10pc;
+        height: 10pc;
+    }
+
+    .fol {
+        font-size: 6pc;
+    }
+
+}
